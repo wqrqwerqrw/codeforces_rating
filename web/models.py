@@ -83,6 +83,7 @@ class Student(models.Model):
         if self.cf_rating < 4000:
             return "red"
 
+
     @property
     def last_five(self):
         res = []
